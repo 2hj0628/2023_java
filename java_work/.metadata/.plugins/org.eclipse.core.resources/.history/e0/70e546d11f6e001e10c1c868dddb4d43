@@ -1,0 +1,7 @@
+package org;
+
+class Dog()
+
+public class Work101901 {
+	Dog myDog = new Dog("Buddy");
+}

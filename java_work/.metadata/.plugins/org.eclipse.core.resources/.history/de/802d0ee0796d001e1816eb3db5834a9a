@@ -1,0 +1,14 @@
+package org;
+
+public class work03 {
+	
+	public static void main(String[] args) {
+		
+		 for(int dan=2; dan<=9; dan+=3) {
+			 for(int cnt=0; cnt<=3; cnt++) {
+				 System.out.printf("***%d***\t",dan+cnt);
+			 }
+			 System.out.println();
+		 }
+	}
+}

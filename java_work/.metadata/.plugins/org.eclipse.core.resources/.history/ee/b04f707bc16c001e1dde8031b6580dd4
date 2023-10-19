@@ -1,0 +1,43 @@
+package org.comstudy.day01.ex02;
+
+import java.util.Scanner;
+
+// 실습
+// 번호, 성명, 이메일, 나이를 입력 받아서 출력하는 프로그램 구현.
+// Person 클래스를 만들고 객체를 선언해서 객체에 입력받기
+
+// 하나의 파일에 여러 클래스 선언 가능.
+class Person {
+	int id;
+	String name;
+	String email;
+	int age;
+//	Person p;	// 자기참조, 연결리스트...
+}
+
+public class Hello2 {
+	// 아직 참조하는 객체가 없다.
+	static Person[] person;	// person=null;
+	static Scanner scan = new Scanner(System.in);
+	public static void main(String[] args) {
+		// 참조 변수에 객체를 참조시켜야 데이터를 입력 받을 수 있다.
+		
+		person = new Person[5];
+		
+		System.out.println(person);
+		
+//		for (int i=0; i<5; i++) {
+//			System.out.println("아이디 입력: ");
+//			person[i].id[i] = scan.nextInt();
+//			System.out.println("성명 입력: ");
+//			person[i].name = scan.next();
+//			System.out.println("이메일 입력: ");
+//			person[i].email = scan.next();
+//			System.out.println("나이 입력: ");
+//			person[i].age = scan.nextInt();
+//			
+//			System.out.printf("%d, %s, %s, %d\n",
+//					person[i].id[i], person[i].name, person[i].email, person[i].age);
+//		}
+	}
+}

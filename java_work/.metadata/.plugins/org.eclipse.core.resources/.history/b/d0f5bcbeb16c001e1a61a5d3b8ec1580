@@ -1,0 +1,22 @@
+package org.comstudy.day01;
+
+// 클래스는 객체를 만들기 위해 만든 틀이다.
+public class Hello {
+	// (클래스의) 멤버 필드 변수
+	// 자바는 변수를 선언할 때 데이터 타입을 표시해야 한다.
+	static final String name = "홍길동";
+	
+	// 클래스의 멤버에는 메서드와 필드가 있다.
+	// 멤버에는 static을 붙히는 것과 안붙히는 것이 있다.
+	// 멤버 메서드
+	public static void main(String[] args) {
+		// (메서드의) 로컬 변수: 로컬 변수는 초기화 필수
+		String address = "파주시 운정";
+		int age = 25;
+		
+		System.out.println("Hello world");
+		System.out.println("성명: " + name);
+		System.out.println("주소: " + address);
+		System.out.println("나이: " + age);
+	}
+}

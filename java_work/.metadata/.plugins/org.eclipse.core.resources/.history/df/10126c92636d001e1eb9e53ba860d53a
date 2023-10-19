@@ -1,0 +1,7 @@
+package org.comstudy.day02;
+
+public class work02 {
+	public static void main(String[] args) {
+		// 구구단 출력
+	}
+}

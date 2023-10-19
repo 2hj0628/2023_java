@@ -1,0 +1,22 @@
+package day03;
+
+import day03.Dog;
+
+class Dog{
+	// 멤버 필드(전역 변수)
+	String name;
+	
+	// 생성자 메소드의 이름은 클래스명과 동일하고 리턴형이 없다.
+	// 함수선언할때 (){}
+	Dog(){
+		// 디폴트 생성자
+	}
+	// 생성자 오버로딩(추가)
+	Dog(String name){
+		
+	}
+}
+
+public class Work101901 {
+	Dog myDog = new Dog("Buddy");	// 생성자를 호출
+}

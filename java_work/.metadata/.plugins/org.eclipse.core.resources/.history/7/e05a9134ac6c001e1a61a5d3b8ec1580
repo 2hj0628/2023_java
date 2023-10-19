@@ -1,0 +1,10 @@
+package org.comstudy.day01;
+
+public class Hello {
+	// (클래스의) 멤버 필드 변수
+	String name = "홍길동";
+	public static void main(String[] args) {
+		// (메서드의) 로컬 변수
+		System.out.println("Hello world");
+	}
+}

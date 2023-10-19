@@ -1,0 +1,23 @@
+package org.comstudy.day01.ex02;
+
+// 실습
+// 번호, 성명, 이메일, 나이를 입력 받아서 출력하는 프로그램 구현.
+// Person 클래스를 만들고 객체를 선언해서 객체에 입력받기
+
+// 하나의 파일에 여러 클래스 선언 가능.
+class Person {
+	int id;
+	String name;
+	String email;
+	int age;
+}
+
+public class Hello2 {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
+// 과제
+// 

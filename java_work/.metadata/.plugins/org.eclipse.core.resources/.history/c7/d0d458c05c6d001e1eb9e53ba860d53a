@@ -1,0 +1,7 @@
+package org.comstudy.day02;
+
+public class work01 {
+	public static void main(String[] args) {
+		// 성적을 입력받아서 학점을 출력
+	}
+}

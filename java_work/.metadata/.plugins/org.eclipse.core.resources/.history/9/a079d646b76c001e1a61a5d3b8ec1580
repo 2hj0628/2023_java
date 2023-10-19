@@ -1,0 +1,15 @@
+package org.comstudy.day01.ex02;
+
+import java.util.Scanner;
+
+// 아이디, 성명, 이메일, 나이를 입력 받아서 출력하는 프로그램 구현.
+
+public class Hello2 {
+	
+	static Scanner scan = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		System.out.println("아이디: ");
+		id = scan.next();
+	}
+}

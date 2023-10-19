@@ -1,0 +1,13 @@
+package org;
+
+class Dog{
+	// 생성자 메소드의 이름은 클래스명과 동일하고 리턴형이 없다.
+	// 함수선언할때 (){}
+	Dog(){
+		
+	}
+}
+
+public class Work101901 {
+	Dog myDog = new Dog("Buddy");	// 생성자를 호출
+}

@@ -1,0 +1,24 @@
+package org;
+
+public class work03 {
+	
+	public static void main(String[] args) {
+		
+		 for(int dan=2; dan<=9; dan+=3) {
+			 for(int nn=1; nn<10; nn++) {
+				 for(int cnt=0; cnt<3 && dan+cnt<10; cnt++) {
+					 System.out.printf("***%d´Ü***\t",dan+cnt);
+				 }
+				 System.out.println();
+				 System.out.printf("%d X %d = %d\t",dan,nn,dan*nn);
+			 }
+//			 for(int cnt=0; cnt<3 && dan+cnt<10; cnt++) {
+//				 for(int nn=1; nn<10; nn++) {
+//					 System.out.printf("%d X %d = %d\t",(dan+cnt),nn,(dan+cnt)*nn);
+//				 }
+//				 System.out.println();
+//			 }
+//			 System.out.println();
+		 }
+	}
+}

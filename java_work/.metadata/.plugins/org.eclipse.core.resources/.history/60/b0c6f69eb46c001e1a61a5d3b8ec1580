@@ -1,0 +1,9 @@
+package org.comstudy.day01.ex02;
+
+// 아이디, 성명, 이메일, 나이를 입력 받아서 출력하는 프로그램 구현.
+
+public class Hello2 {
+	public static void main(String[] args) {
+		
+	}
+}
